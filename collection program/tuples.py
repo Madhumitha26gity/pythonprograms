@@ -1,12 +1,10 @@
-Tuple1=('red',11,'yellow',22,'green',33,'blue',44)
-Tuple2=Tuple1*2 
-Tuple3=('white',55)
-tuple4=Tuple1+Tuple3
-tuple5=('madhumitha')
-tupl=(18,20,22,47,48,49)
 ch=input("ENTER THE TUPLE TO PERFORM:")
 
 if(ch=="A"):
+  Tuple1=('red',11,'yellow',22,'green',33,'blue',44)
+  Tuple2=Tuple1*2 
+  Tuple3=('white',55)
+  tuple5=('madhumitha')
   o=int(input("Enter the option:"))
   if(o==1):
       print(Tuple1)
@@ -39,7 +37,6 @@ if(ch=="A"):
   if(o==9):
       print("Deleting tuple:")
       del Tuple2
-      print(Tuple2)
 
 if(ch=="B"):
     tuple5=('madhumitha')
