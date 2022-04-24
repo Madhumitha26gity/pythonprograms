@@ -30,7 +30,7 @@ if(ch=="A"):
       print(tuple5[::-1])
 
   if(o==7):
-      print(tuple4[4:9])
+      print(tuple5[4:9])
 
   if(o==8):
       print(Tuple1[2][2:4])
