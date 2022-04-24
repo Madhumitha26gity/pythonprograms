@@ -98,5 +98,3 @@ if(ch=="D"):
       print(str)
       tup=tuple(str)
       print("Reverse the tuple:",tup[::-1])
-else:
-  print("INVALID OPTION!")
