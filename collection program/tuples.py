@@ -11,6 +11,7 @@ if(ch=="A"):
       print("Datatype:",type(Tuple1))
 
   if(o==2):
+      print(Tuple1)
       print("length:",len(Tuple1))
 
   if(o==3):
@@ -72,6 +73,8 @@ if(ch=="C"):
 
 if(ch=="D"):
     o=int(input("Enter the option:"))
+    str="temple city"
+    tup=tuple(str)
     if(o==17):
       str="temple city"
       print(type(str))
@@ -79,13 +82,21 @@ if(ch=="D"):
     if(o==18):
       print(str)
       tup=tuple(str)
-      print(type(tup))
+      print("Datatype:",type(tup))
 
     if(o==19):
-      print(tup[-1])
+      print(str)
+      tup=tuple(str)
+      print("Print last value:",tup[-1])
 
     if(o==20): 
-      print(tup[:-1])
+      print(str)
+      tup=tuple(str)
+      print("Remove last value:",tup[:-1])
   
     if(o==21):
-      print(tup[::-1])
+      print(str)
+      tup=tuple(str)
+      print("Reverse the tuple:",tup[::-1])
+else:
+  print("INVALID OPTION!")
